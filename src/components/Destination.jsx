@@ -114,8 +114,8 @@ const Destination = () => {
 
             <div className="line h-px bg-indigo-200 min-w-full lg:w-5/6"></div>
 
-            <div className="dis-time flex flex-col items-center text-center pt-4 gap-4 uppercase
-            md:flex-row w-full md:pt-0 lg:text-start
+            <div className="dis-time flex items-center text-center pt-4 gap-4 uppercase
+            flex-row w-full md:pt-0 lg:text-start
             ">
               <div key={currentPlanet.distance} className="dis basis-1/2 overflow-hidden">
                 <div className='dis-time-title animate-titlemove barlow-co text-sm lg:text-lg text-indigo-200 font-light tracking-widest'>AVG. DISTANCE</div>
