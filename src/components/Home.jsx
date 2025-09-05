@@ -22,9 +22,9 @@ const Home = () => {
 
 
     return (
-        <main className='overflow-hidden lg:container mx-auto px-4 lg:px-20 flex  lg:items-center justify-center grow'>
+        <main className='lg:container mx-auto px-4 lg:px-20 flex  lg:items-center justify-center grow'>
             <div className='home-container flex flex-col lg:flex-row items-center justify-start mt-16 lg:items-end grow
-                            lg:justify-between
+                            lg:justify-between overflow-hidden
             '>
                 <div className='space items-center flex flex-col gap-10 basis-2/4 lg:items-start'>
                     <p className='text-blue-200 text-2xl lg:text-2xl barlow-co tracking-wider '>SO, YOU WANT TO TRAVEL TO</p>

@@ -33,7 +33,7 @@ const Header = () => {
         <nav className='relative flex flex-row justify-between items-center 
         md:p-0
         p-6 lg:pl-12 lg:pt-10'>
-            <div className="icon lg:grow flex flex-row lg:gap-18 items-center
+            <div className="icon grow flex flex-row lg:gap-18 items-center
             md:h-full md:flex md:justify-center
             ">
                 <NavLink to='/'>

@@ -47,7 +47,7 @@ body.destination {
 }
 
 body.technology {
-  background: url(/public/assets/technology/background-technology-mobile.jpg);
+  background: url(/assets/technology/background-technology-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -57,7 +57,7 @@ body.technology {
 @media (min-width: 640px) {
 
   body {
-    background-image: url(/public/assets/home/background-home-tablet.jpg);
+    background-image: url(/assets/home/background-home-tablet.jpg);
   }
 
   body.crew {
