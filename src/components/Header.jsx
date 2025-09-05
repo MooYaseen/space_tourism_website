@@ -37,7 +37,7 @@ const Header = () => {
             md:h-full md:flex md:justify-center
             ">
                 <NavLink to='/'>
-                    <img src="/assets/shared/logo.svg" alt="" className='w-10 lg:w-14' />
+                    <img src="assets/shared/logo.svg" alt="" className='w-10 lg:w-14' />
                 </NavLink>
                 <div className="line h-px hidden lg:block lg:grow bg-white translate-x-6 relative z-10"></div>
             </div>
@@ -46,7 +46,7 @@ const Header = () => {
                     setNavOpened(prev => prev === false ? true : false)
                 }}
             >
-                <img src="/assets/shared/icon-hamburger.svg" alt="" className='w-8'
+                <img src="assets/shared/icon-hamburger.svg" alt="" className='w-8'
                 />
             </div>
             <ul id='nav' className={`text-white ${navOpened ? 'right-[0%]' : '-right-full'}
@@ -64,7 +64,7 @@ const Header = () => {
 
             >
                 <li className="close w-full flex justify-end p-6 md:hidden">
-                    <img src="/assets/shared/icon-close.svg" alt=""
+                    <img src="assets/shared/icon-close.svg" alt=""
                         className='w-8 md:hidden'
                         onClick={() => {
                             setNavOpened(false)
