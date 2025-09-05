@@ -29,7 +29,7 @@ const Technology = ({ allData }) => {
 
 
   return (
-    <main className='container grow mx-auto py-4 flex flex-col'>
+    <main className='container grow mx-auto pt-0 md:py-4 flex flex-col'>
       <div className="title text-2xl barlow-co tracking-wider text-white flex
        gap-2.5 font-light md:ml-10 md:justify-start justify-center mb-4">
         <span className='text-white opacity-50 font-semibold'>03</span>

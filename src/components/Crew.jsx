@@ -44,7 +44,7 @@ const Crew = ({ allData }) => {
 
 
     return (
-        <main className='container grow mx-auto py-4 md:pb-0 flex flex-col'>
+        <main className='container grow mx-auto pt-0 md:py-4 md:pb-0 flex flex-col'>
             <div className="title text-2xl barlow-co tracking-wider text-white 
             flex gap-2.5 font-light md:ml-4 md:justify-start justify-center mb-4">
                 <span className='text-white opacity-50 font-semibold'>02</span>
@@ -85,7 +85,7 @@ const Crew = ({ allData }) => {
                             {crewData.map((mem, indx) => {
                                 return (
                                     <li key={mem.name} className={`rounded-full ${indx === current ? 'bg-white ' : 'bg-white/30'}`} >
-                                        <Link className='block w-5 h-5 md:w-3 md:h-3 cursor-pointer'
+                                        <Link className='block w-4 h-4 md:w-3 md:h-3 cursor-pointer'
                                             onClick={() => {
                                                 setCurrent(indx)
                                                 setCurrentCrew(crewData[indx])

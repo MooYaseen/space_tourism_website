@@ -69,14 +69,14 @@ const Destination = () => {
 
 
   return (
-    <main className='container flex flex-col grow mx-auto py-4'>
+    <main className='container flex flex-col grow mx-auto md:py-4 pt-0'>
       <div className="title text-2xl barlow-co tracking-wider text-white flex 
       gap-2.5 font-light md:ml-4 md:justify-start justify-center mb-4">
         <span className='text-white opacity-50 font-semibold'>01</span>
         PICK YOUR DESTINATION
       </div>
 
-      <div className="box flex flex-col lg:flex-row items-center justify-end grow">
+      <div className="box flex flex-col lg:flex-row items-center justify-start grow">
         <div className="image lg:basis-1/2 flex justify-center overflow-hidden">
           <img key={currentPlanet.name} className='planet-image lg:max-w-96 lg:max-h-96 h-40 w-40 lg:w-96 lg:h-96 aspect-square' src={currentPlanet?.images?.webp} alt="" />
         </div>
