@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight"
+@tailwind utilities;
+
+
+.tech-link {
+  @apply flex items-center justify-center text-xl lg:text-3xl w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-950 cursor-pointer select-none text-white border border-gray-500 hover:border-white transition-colors duration-300
+}
+
+.tech-active {
+  @apply bg-white text-gray-950 border-white
+}
+
+
+*/:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+
+
+  /* color-scheme: light dark;
+  background-color: rgba(255, 255, 255, 0.87);
+  color: #242424; */
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
